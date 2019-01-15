@@ -31,7 +31,7 @@ public class CollisionManager : MonoBehaviour
             block2TextRect.anchoredPosition = new Vector2(block2Transform.transform.position.x * 108f, -108);
             UpdateCollision();
         }
-        counterText.text = "# Collsions: " + collisions;
+        counterText.text = "# Collisions: " + collisions;
         
     }
     void UpdateCollision()
